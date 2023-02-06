@@ -1,0 +1,101 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+}
+
+nav > li {
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  gap: 5px;
+ 
+}
+nav > li > ul{
+ 
+  gap: 5px;
+  padding: 5px;
+ }
+
+ div > h1{
+  text-align: center;
+  padding: 10px;
+  border-bottom: 30px;
+  padding-bottom: 50px;
+  
+ }
+
+ header > section{
+  display: flex;
+  justify-content: flex-start;
+ flex-wrap: wrap;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  width:  150px;
+ position: absolute;
+ right: 30px;
+ top: 10px;
+ text-align: left;
+ flex-direction: column;
+ }
+
+ .gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  grid-template-rows: repeat(3, 250px) ;
+    
+  column-gap: 50px;
+  row-gap: 120px;
+  width: 70vw;
+  height: 70vw;
+  padding: 25px;
+  justify-self: center;
+  text-align: center;
+  margin-left: 150px;
+  /* align-items: center;
+  justify-content: center; */
+  
+ }
+.card{
+  align-items: center;
+  /* vertical-align: top; */
+    text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+div > .card {
+  align-items: center;
+  display: flex
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center; 
+  width: 200px;
+}
+
+.card > img{
+  align-items: center;
+  display: flex
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center; 
+  width: 200px;
+} 
+
+
+.price{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
